@@ -74,6 +74,33 @@ class Questions {
       'The ability to create abstract classes',
     ],
   ),
+  QuizQuestion(
+    'what is the purpose of the "finally" block in a try-catch-finally statement?',
+    [
+      'To execute code regardless of whether an exception was thrown or not',
+      'To execute code only if an exception was thrown',
+      'The ability to encapsulate data and methods',
+      'The ability to create abstract classes',
+    ],
+  ),
+  QuizQuestion(
+    'What is the purpose of the "break" statement in a loop?',
+    [
+      'To exit the loop',
+      'To skip the current iteration',
+      'To continue to the next iteration',
+      'To execute a block of code',
+    ],
+  ),
+  QuizQuestion(
+    'What is the purpose of the "continue" statement in a loop?',
+    [
+      'To skip the current iteration',
+      'To exit the loop',
+      'To continue to the next iteration',
+      'To execute a block of code',
+    ]
+  )
 ];
 
 }

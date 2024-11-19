@@ -71,7 +71,7 @@ class ResultScreen extends StatelessWidget {
                             Row(
                               children: [
                                 CircleAvatar(
-                                  backgroundColor: Colors.blue,
+                                  backgroundColor: item['answer'].toString()==item['user_Answer'].toString()? Colors.blue : Colors.red,
                                   radius: 20,
                                   child: myText(
                                       text:
